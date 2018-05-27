@@ -7,7 +7,7 @@ var auth = new OAuthClient({
     clientId: 'vital',
     clientSecret: 'vitalrocks',
     accessTokenUri: 'https://account-public-service-prod03.ol.epicgames.com/account/api/oauth/token',
-    authorizationUri: 'https://account-public-service-prod03.ol.epicgames.com/account/api/oauth/verify',
+    authorizationUri: 'https://accounts.epicgames.com/login',
     redirectUri: 'https://flame.gg',
     scopes: ['fortnite']
 });
