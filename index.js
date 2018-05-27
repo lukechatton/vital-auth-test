@@ -6,8 +6,8 @@ var app = express();
 var auth = new OAuthClient({
     clientId: 'vital',
     clientSecret: 'vitalrocks',
-    accessTokenUri: 'https://accounts.epicgames.com/login',
-    authorizationUri: 'https://minehut.com/login',
+    accessTokenUri: 'https://account-public-service-prod03.ol.epicgames.com/account/api/oauth/token',
+    authorizationUri: 'https://account-public-service-prod03.ol.epicgames.com/account/api/oauth/verify',
     redirectUri: 'https://flame.gg',
     scopes: ['fortnite']
 });
